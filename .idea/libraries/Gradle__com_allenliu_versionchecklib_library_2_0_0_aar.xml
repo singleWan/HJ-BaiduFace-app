@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.allenliu.versionchecklib:library:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/879b0be877cb97ad0c9712fa1d3fb91e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/879b0be877cb97ad0c9712fa1d3fb91e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allenliu.versionchecklib/library/2.0.0/67b4eed1f8034167d6b2e5be21a12955abbaa7d/library-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

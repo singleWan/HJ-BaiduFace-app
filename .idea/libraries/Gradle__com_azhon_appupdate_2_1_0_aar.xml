@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.azhon:appupdate:2.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da9af8556f6c529a35657ec5afd9815/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da9af8556f6c529a35657ec5afd9815/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da9af8556f6c529a35657ec5afd9815/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azhon/appupdate/2.1.0/ab74c747ffe5498f4235e90eb95108dcfd308bf/appupdate-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

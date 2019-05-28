@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/home/vant/test/face/facesdk/CMakeLists.txt" ],
+	"buildFiles" : [ "/home/vant/test/HJ-BaiduFace-app/facesdk/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+		"/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -13,7 +13,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libavcodec",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavcodec.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libavcodec.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libavformat-Release-armeabi-v7a" : 
@@ -21,7 +21,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libavformat",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavformat.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libavformat.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libavutil-Release-armeabi-v7a" : 
@@ -29,7 +29,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libavutil",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavutil.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libavutil.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libswresample-Release-armeabi-v7a" : 
@@ -37,7 +37,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libswresample",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libswresample.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libswresample.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libswscale-Release-armeabi-v7a" : 
@@ -45,7 +45,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libswscale",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libswscale.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libswscale.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libx264-Release-armeabi-v7a" : 
@@ -53,7 +53,7 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libx264",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libx264.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libx264.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"libyuv-Release-armeabi-v7a" : 
@@ -61,31 +61,31 @@
 			"abi" : "armeabi-v7a",
 			"artifactName" : "libyuv",
 			"buildType" : "release",
-			"output" : "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libyuv.a",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/jniLibs/armeabi-v7a/libyuv.a",
 			"toolchain" : "18091214811306676093"
 		},
 		"rtsp-Release-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "rtsp",
-			"buildCommand" : "/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target rtsp",
+			"buildCommand" : "/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target rtsp",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/vant/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/vant/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Drtsp_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=gnu++11 -fexceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/vant/test/face/facesdk/src/main/cpp/RtspJni.cpp",
-					"workingDirectory" : "/home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"src" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/cpp/RtspJni.cpp",
+					"workingDirectory" : "/home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/vant/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/vant/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Drtsp_EXPORTS -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=gnu++11 -fexceptions -frtti -Oz -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/vant/test/face/facesdk/src/main/cpp/RtspClient.cpp",
-					"workingDirectory" : "/home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"src" : "/home/vant/test/HJ-BaiduFace-app/facesdk/src/main/cpp/RtspClient.cpp",
+					"workingDirectory" : "/home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "/home/vant/test/face/facesdk/build/intermediates/cmake/release/obj/armeabi-v7a/librtsp.so",
+			"output" : "/home/vant/test/HJ-BaiduFace-app/facesdk/build/intermediates/cmake/release/obj/armeabi-v7a/librtsp.so",
 			"toolchain" : "18091214811306676093"
 		}
 	},

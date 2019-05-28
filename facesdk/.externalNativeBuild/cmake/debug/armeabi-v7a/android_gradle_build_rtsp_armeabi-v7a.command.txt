@@ -1,7 +1,7 @@
 Executable : /home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
 --build
-/home/vant/test/face/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a
+/home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a
 --target
 rtsp
 jvmArgs : 

@@ -12,4 +12,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/vant/test/face/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a
+-- Build files have been written to: /home/vant/test/HJ-BaiduFace-app/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a

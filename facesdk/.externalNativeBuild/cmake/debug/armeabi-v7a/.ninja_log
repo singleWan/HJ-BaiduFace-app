@@ -1,4 +1,4 @@
 # ninja log v5
-0	1214	0	CMakeFiles/rtsp.dir/src/main/cpp/RtspClient.cpp.o	506d09291f174dfd
-0	1509	0	CMakeFiles/rtsp.dir/src/main/cpp/RtspJni.cpp.o	6731f2c3ec25da0e
-1509	3121	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/librtsp.so	22963ce58fded515
+0	1256	0	CMakeFiles/rtsp.dir/src/main/cpp/RtspClient.cpp.o	8934728fbbbd9c61
+0	1566	0	CMakeFiles/rtsp.dir/src/main/cpp/RtspJni.cpp.o	acd2b8115157e933
+1566	2865	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/librtsp.so	22963ce58fded515

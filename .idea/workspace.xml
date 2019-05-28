@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="Socket" />
+        <option name="name" value="Socket" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="kwwl" />
+        <option name="name" value="kwwl" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Socket" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.squareup.okhttp3</group-id>
+        <name>okhttp</name>
+        <version>4.0.0-alpha01</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>cat.ereza</group-id>
+        <name>customactivityoncrash</name>
+        <version>2.2.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta1</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1558580131907</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="458d731f-4945-431a-8db9-1b4779a97491" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_vant_test_HJ_BaiduFace_app_facesdk_libs_ast_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_vant_test_HJ_BaiduFace_app_facesdk_libs_baidu_license_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____home_vant_test_HJ_BaiduFace_app_facesdk_libs_facesdk_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ-BaiduFace-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCLOUD" beforeDir="false" afterPath="$PROJECT_DIR$/BCLOUD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/HJsocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/HJsocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/Callback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.jks" beforeDir="false" afterPath="$PROJECT_DIR$/android.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/aidl/com/example/HiJogging/IBackService.aidl" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/aidl/com/example/HiJogging/IBackService.aidl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/idl-license.face-android" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/idl-license.face-android" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/APIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/APIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ContactManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ContactManagerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/EnterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/EnterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceIdActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceIdActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotPayActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotPayActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotimeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotimeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/OutSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/OutSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegDetectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegDetectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterResultActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ResourceSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ResourceSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RtspTestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RtspTestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SettingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SettingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/exception/FaceError.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/exception/FaceError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/AccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/AccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/FaceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/FaceModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/FaceVerifyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/FaceVerifyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/HttpParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/HttpParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RegParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RegParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RegResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RegResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RequestParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/RequestParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/model/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/AccessTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/AccessTokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Base64RequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Base64RequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/ExifUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/ExifUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/FaceVerifyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/FaceVerifyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/JsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/JsonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/OnResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/OnResultListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/RegResultParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/RegResultParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/VerifyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/VerifyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/GoRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/GoRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/fileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/fileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/avator_rect_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/avator_rect_shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/base_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/base_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/neterror.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/neterror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nofaceid.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nofaceid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nopaycard.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nopaycard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/notime.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notime.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/outsuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/outsuccess.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/successin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/successin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/typeerror.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/typeerror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_enter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_enter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_neterror.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_neterror.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notpay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notpay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reg_detected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reg_detected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rtsp_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rtsp_test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_contact_manager_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_contact_manager_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs_out_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs_out_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/file_paths_public.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths_public.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face.jks" beforeDir="false" afterPath="$PROJECT_DIR$/face.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceapple.jks" beforeDir="false" afterPath="$PROJECT_DIR$/faceapple.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspClient.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspClient.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspJni.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspJni.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_rtsp_armeabi-v7a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_rtsp_armeabi-v7a.command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspClient.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rtsp.dir/src/main/cpp/RtspJni.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_rtsp_armeabi-v7a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_rtsp_armeabi-v7a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_rtsp_armeabi-v7a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/facesdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/facesdk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/libs/ast.jar" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/libs/ast.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/libs/baidu_license.jar" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/libs/baidu_license.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/libs/facesdk.jar" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/libs/facesdk.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/assets/align_model.binary" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/assets/align_model.binary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/assets/blur.binary" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/assets/blur.binary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/assets/facedetect.binary" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/assets/facedetect.binary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/assets/occlu.binary" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/assets/occlu.binary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/assets/score.binary" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/assets/score.binary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspClient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspClient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspClient.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspClient.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspJni.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/RtspJni.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avcodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avcodec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avdct.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avdct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avfft.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/avfft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/d3d11va.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/d3d11va.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dirac.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dirac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dv_profile.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dv_profile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dxva2.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/dxva2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/jni.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/jni.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/mediacodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/mediacodec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/qsv.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/qsv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vaapi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vda.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vda.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vdpau.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vdpau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/videotoolbox.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/videotoolbox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vorbis_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/vorbis_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/xvmc.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavcodec/xvmc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavdevice/avdevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavdevice/avdevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavdevice/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavdevice/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/avfilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/avfilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/avfiltergraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/avfiltergraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/buffersink.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/buffersink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/buffersrc.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/buffersrc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavfilter/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/avformat.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/avformat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/avio.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/avio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavformat/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/adler32.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/adler32.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/aes.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/aes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/aes_ctr.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/aes_ctr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/attributes.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/attributes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/audio_fifo.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/audio_fifo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avassert.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avassert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/avutil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/base64.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/base64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/blowfish.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/blowfish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/bprint.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/bprint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/bswap.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/bswap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/camellia.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/camellia.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/cast5.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/cast5.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/channel_layout.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/channel_layout.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/cpu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/crc.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/crc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/des.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/des.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/dict.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/dict.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/display.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/display.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/downmix_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/downmix_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/error.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/error.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/eval.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/eval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/ffversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/ffversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/fifo.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/fifo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/file.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/file.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/frame.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/frame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hmac.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hmac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_cuda.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_cuda.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_dxva2.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_dxva2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_qsv.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_qsv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_vaapi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_vdpau.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/hwcontext_vdpau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/imgutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/imgutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/intfloat.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/intfloat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/intreadwrite.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/intreadwrite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/lfg.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/lfg.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/log.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/lzo.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/lzo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/macros.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/macros.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mastering_display_metadata.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mastering_display_metadata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mathematics.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mathematics.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/md5.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/md5.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/mem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/motion_vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/motion_vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/murmur3.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/murmur3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/opt.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/opt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/parseutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/parseutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixdesc.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixdesc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixelutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixelutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixfmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/pixfmt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/random_seed.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/random_seed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/rational.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/rational.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/rc4.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/rc4.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/replaygain.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/replaygain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/ripemd.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/ripemd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/samplefmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/samplefmt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/sha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/sha512.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/sha512.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/stereo3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/stereo3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/tea.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/tea.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/threadmessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/threadmessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/time.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/timecode.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/timecode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/timestamp.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/timestamp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/twofish.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/twofish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/xtea.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libavutil/xtea.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libpostproc/postprocess.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libpostproc/postprocess.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libpostproc/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libpostproc/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswresample/swresample.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswresample/swresample.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswresample/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswresample/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswscale/swscale.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswscale/swscale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswscale/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libswscale/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/basic_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/basic_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/compare.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/compare.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/compare_row.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/compare_row.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_argb.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_argb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_from.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_from.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_from_argb.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/convert_from_argb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/cpu_id.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/cpu_id.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/macros_msa.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/macros_msa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/mjpeg_decoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/mjpeg_decoder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/planar_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/planar_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate_argb.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate_argb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate_row.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/rotate_row.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/row.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/row.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale_argb.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale_argb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale_row.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/scale_row.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/video_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/include/libyuv/video_common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/cpp/obj/local/arm64-v8a/objs/rtsp/rtsp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/cpp/obj/local/arm64-v8a/objs/rtsp/rtsp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceSDKManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/FaceSDKManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/ImageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/ImageFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/RtspClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/RtspClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/ArgbPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/ArgbPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/CameraImageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/CameraImageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/DetectRegionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/DetectRegionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceCropper.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceCropper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceDetectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceDetectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FaceProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FileImageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/FileImageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/ImageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/ImageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/LivenessDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/LivenessDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/OnFrameAvailableListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/OnFrameAvailableListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/PreviewView.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/PreviewView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/RtspImageSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/RtspImageSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/TexturePreviewView.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/TexturePreviewView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/Camera1Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/Camera1Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/Camera2Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/Camera2Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/CameraView.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/CameraView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/ICameraControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/ICameraControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/PermissionCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/java/com/baidu/aip/face/camera/PermissionCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/arm64-v8a/libFaceSDK.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/arm64-v8a/libFaceSDK.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/arm64-v8a/libbaidu_license.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/arm64-v8a/libbaidu_license.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libFaceSDK.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libFaceSDK.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavcodec.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavcodec.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavformat.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavformat.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavutil.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libavutil.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libbaidu_license.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libbaidu_license.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libpostproc.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libpostproc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libswresample.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libswresample.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libswscale.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libswscale.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libx264.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libx264.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libyuv.a" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/armeabi-v7a/libyuv.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/x86/libFaceSDK.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/x86/libFaceSDK.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/jniLibs/x86/libbaidu_license.so" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/jniLibs/x86/libbaidu_license.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facesdk/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeline_project_description.json" beforeDir="false" afterPath="$PROJECT_DIR$/freeline_project_description.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PropertiesUtil</find>
+      <find>Environment.getExternalStorageDirectory().getPath()</find>
+      <find>testView</find>
+      <find>setDialogButtonTextColor</find>
+      <find>setShowBgdToast</find>
+      <find>setForcedUpgrade</find>
+      <find>setButtonClickListener</find>
+      <find>builder</find>
+      <find>applicationId</find>
+      <find>import android.support.v7.app.AlertDialog;</find>
+      <find>forcedUpgrade</find>
+      <find>HttpURLConnection</find>
+      <find>handler</find>
+      <find>&lt;uses-permission  android:name=&quot;android.permission.INTERNET&quot;/&gt;</find>
+      <find>sendHeart</find>
+      <find>onReceived</find>
+      <find>onReconnect</find>
+      <find>disconnectSocketIfNecessary</find>
+      <find>connect</find>
+      <find>读取数据异常</find>
+      <find>读取数据异</find>
+      <find>onConnected</find>
+      <find>heartInterval</find>
+      <find>isConnected</find>
+      <find>onError</find>
+      <find>mBroadcastReceiver</find>
+      <find>heartIntervalEditText</find>
+      <find>typeError</find>
+      <find>70</find>
+      <find>NoFace</find>
+    </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/android.jks" />
+    <option name="KEY_ALIAS" value="facekey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotimeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/SuccessActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notpay.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_noopen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/TypeErrorActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotPayActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/GoRun.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/ProperTies.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/UrlString.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/Setting" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/MyProperUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/appConfig" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/setting" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/Test.prop" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_enter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_success.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/fileUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detected.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/file_paths_public" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/file_paths_public.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/IOSUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/MyThread.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/facesdk/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java" />
+        <option value="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/TypeErrorActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/OnResultListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nofaceid.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceId.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceIdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_contact_manager_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ContactManagerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/OutSuccess.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="150" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AndroidTargetDevices" value="HAP9X19227002519" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="debug" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="HAP9X19227002472" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.baidu.aip.face.turnstile" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.baidu.aip.face.turnstile" />
+      <recent name="com.example.HiJogging" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="do_nothing" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="458d731f-4945-431a-8db9-1b4779a97491" name="Default Changelist" comment="" />
+      <created>1554824774650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554824774650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-4" width="1902" height="1094" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.501548" side_tool="true" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49690402" visible="true" weight="0.32954547" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.503096" side_tool="true" weight="0.32954547" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3281412" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50054115" side_tool="true" weight="0.2990654" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32744282" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49945888" weight="0.2990654" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32917964" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32954547" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.32954547" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="OCSymbolicBreakpointType">
+          <properties>
+            <option name="moduleName" value="libart.so" />
+            <option name="symbolPattern" value="art_sigsegv_fault" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java</url>
+          <line>16</line>
+          <properties field="mServiceIntent" class="com.baidu.aip.face.turnstile.SuccessActivity" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/MyThread.java" />
+    <entry file="file://$PROJECT_DIR$/HJsocket/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facesdk/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ResourceSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="61" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#1994#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#886#1256#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/fileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/OnResultListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="628" column="13" selection-start-line="628" selection-start-column="13" selection-end-line="628" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/TypeErrorActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/APIService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-978">
+          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nofaceid.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_xxxx.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/xxxx.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceId.java" />
+    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="413" selection-start-line="413" selection-end-line="413" />
+          <folding>
+            <element signature="method#generateMsg#0;class#HJSocket#0" />
+            <element signature="method#downMsg#0;class#HJSocket#0" />
+            <element signature="method#connect#0;class#HJSocket#0" />
+            <element signature="method#realconnect#0;class#HJSocket#0" />
+            <element signature="method#disconnectSocketIfNecessary#0;class#HJSocket#0" />
+            <element signature="method#closeThread#0;class#HJSocket#0" />
+            <element signature="method#closeWatchThread#0;class#HJSocket#0" />
+            <element signature="method#openThread#0;class#HJSocket#0" />
+            <element signature="method#openWatchThread#0;class#HJSocket#0" />
+            <element signature="method#send#0;class#HJSocket#0" />
+            <element signature="method#byte2HexStr#0;class#HJSocket#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/enter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nopaycard.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/notime.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nofaceid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/neterror.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/base_back.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/successin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/typeerror.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/welcome.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_net_error_activity.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notime.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceIdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_enter.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id_activity.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotimeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/EnterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_contact_manager_activity.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="239" column="63" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/OutSuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_success.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ContactManagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 25 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
