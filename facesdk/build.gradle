@@ -4,6 +4,20 @@
 apply plugin: 'com.android.library'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('/home/vant/test/HJ-BaiduFace-app/android.jks')
+            storePassword '1008611'
+            keyAlias = 'face'
+            keyPassword '1008611'
+        }
+        debug {
+            storeFile file('/home/vant/test/HJ-BaiduFace-app/android.jks')
+            storePassword '1008611'
+            keyPassword '1008611'
+            keyAlias = 'face'
+        }
+    }
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
@@ -17,7 +31,7 @@ android {
         ndk{
             abiFilters 'armeabi-v7a'
         }
-        signingConfig signingConfigs.debug
+        signingConfig signingConfigs.release
 
     }
     buildTypes {
