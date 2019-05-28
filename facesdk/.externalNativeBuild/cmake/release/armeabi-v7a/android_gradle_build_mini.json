@@ -1,0 +1,51 @@
+{
+  "buildFiles": [
+    "/home/vant/test/face/facesdk/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "libavutil-Release-armeabi-v7a": {
+      "artifactName": "libavutil",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavutil.a"
+    },
+    "rtsp-Release-armeabi-v7a": {
+      "artifactName": "rtsp",
+      "buildCommand": "/home/vant/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a --target rtsp",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/build/intermediates/cmake/release/obj/armeabi-v7a/librtsp.so"
+    },
+    "libswscale-Release-armeabi-v7a": {
+      "artifactName": "libswscale",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libswscale.a"
+    },
+    "libavcodec-Release-armeabi-v7a": {
+      "artifactName": "libavcodec",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavcodec.a"
+    },
+    "libswresample-Release-armeabi-v7a": {
+      "artifactName": "libswresample",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libswresample.a"
+    },
+    "libavformat-Release-armeabi-v7a": {
+      "artifactName": "libavformat",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libavformat.a"
+    },
+    "libx264-Release-armeabi-v7a": {
+      "artifactName": "libx264",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libx264.a"
+    },
+    "libyuv-Release-armeabi-v7a": {
+      "artifactName": "libyuv",
+      "abi": "armeabi-v7a",
+      "output": "/home/vant/test/face/facesdk/src/main/jniLibs/armeabi-v7a/libyuv.a"
+    }
+  }
+}

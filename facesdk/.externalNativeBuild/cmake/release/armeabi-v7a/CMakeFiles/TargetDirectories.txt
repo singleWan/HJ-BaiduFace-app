@@ -1,0 +1,3 @@
+/home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/vant/test/face/facesdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rtsp.dir

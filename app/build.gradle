@@ -1,0 +1,63 @@
+/*
+ * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ */
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.example.HiJogging"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 7
+        versionName "1.0.7"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+    }
+    buildTypes {
+        release {
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    signingConfigs {
+
+        def password = "1008611"
+        def alias = "face"
+        def filePath = ("../android.jks")
+        debug {
+            keyAlias alias
+            keyPassword password
+            storeFile file(filePath)
+            storePassword(password)
+        }
+        release {
+            keyAlias alias
+            keyPassword password
+            storeFile file(filePath)
+            storePassword(password)
+        }
+    }
+}
+
+
+dependencies {
+    implementation project(":HJsocket")
+    implementation 'com.azhon:appupdate:2.1.0'
+    implementation 'com.blankj:swipe-panel:1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':facesdk')
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    implementation 'cat.ereza:customactivityoncrash:1.5.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:26.+'
+}

@@ -1,0 +1,48 @@
+/*
+ * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ */
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+
+        ndk{
+            abiFilters 'armeabi-v7a'
+        }
+        signingConfig signingConfigs.debug
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable = true
+            jniDebuggable = true
+        }
+    }
+
+    //  TODO 如果需要使用网络摄像头，请开启该编译，会生成rstp.so,使用rtsp接受网络视频流，使用ffmpge解码视频帧
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api files('libs/facesdk.jar')
+    implementation files('libs/baidu_license.jar')
+    implementation files('libs/ast.jar')
+    implementation 'com.android.support:appcompat-v7:26.+'
+}

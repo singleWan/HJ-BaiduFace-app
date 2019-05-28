@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('/home/vant/test/face/face.jks')
+            storePassword '1008611'
+            keyAlias = 'face'
+            keyPassword '1008611'
+        }
+    }
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.debug
+    }
+    buildTypes {
+        release {
+        }
+    }
+
+
+}
+
+dependencies {
+    
+}
