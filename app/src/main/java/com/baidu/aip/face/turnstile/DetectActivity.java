@@ -89,6 +89,7 @@ public class DetectActivity extends AppCompatActivity {
     String version ;
     String describe;
     String downUrl;
+    String TAG = "Detect";
 
     private boolean run = true;
     private boolean RUN = true;
@@ -134,7 +135,7 @@ public class DetectActivity extends AppCompatActivity {
                     .setDownloadPath(Environment.getExternalStorageDirectory() + "/AppUpdate")
                     .setApkVersionCode(9999)
                     .setApkVersionName(version)
-                    .setApkSize("16.5")
+                    .setApkSize("14.57")
                     .setAuthorities(getPackageName())
                     .setApkDescription(describe)
                     .download();
@@ -156,6 +157,7 @@ public class DetectActivity extends AppCompatActivity {
                     jsons = jsonObject.getJSONObject("data");
                     httpCode = jsonObject.getInt("code");
                 } catch (JSONException e) {
+                    DemoApplication.getLogger().e(TAG , e.toString());
                     e.printStackTrace();
                 }
                 if (httpCode == 200){
@@ -163,9 +165,10 @@ public class DetectActivity extends AppCompatActivity {
                         version = jsons.getString("version");
                         describe = jsons.getString("describe");
                         downUrl = jsons.getString("url");
-                        Log.e("Socket" , version + describe + downUrl);
+                        DemoApplication.getLogger().i(TAG , version + describe + downUrl);
 
                     } catch (JSONException e) {
+                        DemoApplication.getLogger().e(TAG , e.toString());
                         e.printStackTrace();
                     }
                     if (Utils.compareVersion(version , code) > 0){
@@ -198,17 +201,16 @@ public class DetectActivity extends AppCompatActivity {
                             Thread.sleep(Long.MAX_VALUE);
                         }
                     } catch (Exception e) {
+                        DemoApplication.getLogger().e(TAG , e.toString());
                         e.printStackTrace();
                     }
-
-                    Log.e("Socket" , "test");
                     Message msg = Message.obtain();
                     String html = "";
                     try {
                         html = getHtml("https://api.shikegongxiang.com/faceapp/V1/currentVersion");
                     } catch (Exception e) {
                         e.printStackTrace();
-                        Log.e("Socket" , e.toString());
+                        DemoApplication.getLogger().e(TAG , e.toString());
                     }
                     Bundle data = new Bundle();
                     data.putString("value", html);
@@ -226,7 +228,6 @@ public class DetectActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             //写入接收广播后的操作
             msg = intent.getStringExtra("msg");
-            Log.e("Socket" , msg);
             if (msg.equals("noTime")){
                 faceDetectManager.stop();
                 new Handler(new Handler.Callback() {
@@ -290,9 +291,8 @@ public class DetectActivity extends AppCompatActivity {
                     code = info.versionName;
                 } catch (PackageManager.NameNotFoundException e) {
                     e.printStackTrace();
-                    Log.e("Socket" , e.toString());
+                    DemoApplication.getLogger().i(TAG , e.toString());
                 }
-                Log.e("Socket" , "test1");
                 if (run){
                     syncTasks.start();
                     run = false;
@@ -534,7 +534,7 @@ public class DetectActivity extends AppCompatActivity {
                                         if (score > maxScore) {
                                             maxScore = score;
                                             userId = s.getString("user_id");
-                                            Log.e("Socket" , s.toString());
+                                            DemoApplication.getLogger().e(TAG , s.toString());
                                         }
 
                                     }
@@ -543,6 +543,7 @@ public class DetectActivity extends AppCompatActivity {
                             }
 
                         } catch (JSONException e) {
+                            DemoApplication.getLogger().e(TAG , e.toString());
                             e.printStackTrace();
                         }
 
@@ -559,12 +560,14 @@ public class DetectActivity extends AppCompatActivity {
                             }
                         }else{
                             if (isServiceExisted("com.baidu.aip.face.turnstile.service.BackService")){
+                                DemoApplication.getLogger().i(TAG , "有后台服务");
                                 showUserInfo("相似度： "  , (float)maxScore);
                                 Intent intent = new Intent();
                                 intent.setAction("com.service.Receive");
                                 intent.putExtra("userId", userId);
                                 sendBroadcast(intent);
                             }else{
+                                DemoApplication.getLogger().i(TAG , "无后台服务");
                                 startService();
                             }
                         }
@@ -580,6 +583,7 @@ public class DetectActivity extends AppCompatActivity {
                     }
                 }, file);
             } catch (IOException e) {
+                DemoApplication.getLogger().e(TAG , e.toString());
                 e.printStackTrace();
             }
         } else {

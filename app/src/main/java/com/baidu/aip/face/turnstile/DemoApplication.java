@@ -9,15 +9,26 @@ import com.baidu.aip.face.turnstile.exception.FaceError;
 import com.baidu.aip.face.turnstile.model.AccessToken;
 import com.baidu.aip.face.turnstile.utils.OnResultListener;
 import com.baidu.idl.facesdk.FaceTracker;
+import com.jiongbull.jlog.Logger;
+import com.jiongbull.jlog.constant.LogLevel;
+import com.jiongbull.jlog.constant.LogSegment;
+import com.jiongbull.jlog.util.TimeUtils;
+
 import android.app.Application;
+import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DemoApplication extends Application {
 
     private Handler handler = new Handler(Looper.getMainLooper());
+
+    private static Logger sLogger;
 
     @Override
     public void onCreate() {
@@ -48,6 +59,26 @@ public class DemoApplication extends Application {
 
             }
         }, Config.apiKey, Config.secretKey);
+
+
+        List<String> logLevels = new ArrayList<>();
+        logLevels.add(LogLevel.ERROR);
+        logLevels.add(LogLevel.WTF);
+        logLevels.add(LogLevel.INFO);
+
+        sLogger = Logger.Builder.newBuilder(getApplicationContext(), "jlog")
+                /* 下面的属性都是默认值，你可以根据需求决定是否修改它们. */
+                .setDebug(false)
+                .setWriteToFile(true)
+                .setLogDir("HJLog")
+                .setLogPrefix("")
+                .setLogSegment(LogSegment.TWENTY_FOUR_HOURS)
+                .setLogLevelsForFile(logLevels)
+                .setZoneOffset(TimeUtils.ZoneOffset.P0800)
+                .setTimeFormat("yyyy-MM-dd HH:mm:ss")
+                .setPackagedLevel(0)
+                .setStorage(null)
+                .build();
     }
 
     /**
@@ -85,6 +116,10 @@ public class DemoApplication extends Application {
         // 是否进行质量检测
         tracker.set_isCheckQuality(true);
         // 是否进行活体校验
-        tracker.set_isVerifyLive(false);
+        tracker.set_isVerifyLive(true);
+    }
+    //初始化Jlog
+    public static Logger getLogger() {
+        return sLogger;
     }
 }

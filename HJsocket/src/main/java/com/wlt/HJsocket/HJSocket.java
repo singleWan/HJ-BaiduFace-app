@@ -2,7 +2,6 @@ package com.wlt.HJsocket;
 
 import android.os.Looper;
 import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -35,8 +34,6 @@ public class HJSocket {
     private byte[] buffer = new byte[1024];
 
     private boolean isLine = false;
-
-    private String TAG = "SocketConnect";
 
     private Thread watchThread = null;
 
@@ -171,8 +168,6 @@ public class HJSocket {
                 isConnected = true;
                 isLine = true;
                 callback.onConnected();
-                Log.e(TAG, "onConnected");
-
                 //创建监听线程
                 openThread();
 
@@ -182,7 +177,7 @@ public class HJSocket {
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
-            Log.e(TAG, "onError");
+            callback.onError("创建连接错误");
         }
 
 
@@ -226,14 +221,13 @@ public class HJSocket {
                 mSocket = null;
 
                 callback.onDisconnected();
-                Log.e(TAG, "onDisconnected");
+//                Log.e(TAG, "onDisconnected");
             }
 
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
             callback.onError("断开连接异常");
-            Log.e(TAG, "onError");
         }
     }
 
@@ -250,7 +244,7 @@ public class HJSocket {
             isLine = false;
             mThread.interrupt();
             mThread = null;
-            Log.e(TAG, "close thread");
+//            Log.e(TAG, "close thread");
         }
     }
 
@@ -260,7 +254,7 @@ public class HJSocket {
             isAutoConnect = false;
             watchThread.interrupt();
             watchThread = null;
-            Log.e(TAG, "close watchThread");
+//            Log.e(TAG, "close watchThread");
         }
     }
 
@@ -282,7 +276,6 @@ public class HJSocket {
                             System.arraycopy(buffer, 0, data, 0, readLen);
 
                             callback.onReceived(byte2HexStr(data));
-                            Log.e(TAG, "收到消息"+":"+byte2HexStr(data));
 
                             if (needHeart){
                                 last_rec_time = System.currentTimeMillis();
@@ -293,7 +286,6 @@ public class HJSocket {
                         // TODO: handle exception
                         e.printStackTrace();
                         callback.onError("notLine");
-                        Log.e(TAG, "onError");
                     }
 
                 }
@@ -327,7 +319,7 @@ public class HJSocket {
 
                         if (needHeart) {
                             if (!isLine){
-                                Thread.sleep(heartInterval);
+                                Thread.sleep(10000);
                             }
                             if (System.currentTimeMillis() - last_send_time > heartInterval){
                                 realsend(HJSocket.generateMsg(1) , "heart");
@@ -346,7 +338,6 @@ public class HJSocket {
 
                         }else {
                             //未连接的情况下，重新连接服务器
-                            Log.e(TAG, "onReconnect");
                             callback.onReconnected();
                             disconnectSocketIfNecessary();
                             realconnect();
@@ -357,8 +348,7 @@ public class HJSocket {
                     } catch (Exception e) {
                         // TODO: handle exception
                         e.printStackTrace();
-                        Log.e(TAG, e.getMessage());
-                        Log.e(TAG, "onError");
+                        callback.onError("发送心跳错误");
                     }
 
                 }
@@ -419,7 +409,6 @@ public class HJSocket {
 
             if (type.equals("send")){
                 callback.onSend();
-                Log.e(TAG, "onSend");
             }
 
         } catch (Exception e) {
@@ -427,12 +416,10 @@ public class HJSocket {
             e.printStackTrace();
             if (type.equals("send")){
                 callback.onError("发送失败");
-                Log.e(TAG, "SendError");
             }else if (type.equals("heart")){
                 isConnected = false;
                 isLine = false;
                 callback.onError("心跳发送失败");
-                Log.e(TAG, "heartSendError");
             }
         }
     }

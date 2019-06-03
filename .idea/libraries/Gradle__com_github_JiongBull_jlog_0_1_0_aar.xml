@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.JiongBull:jlog:0.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac318cc324ad984833ea40f8b985c27/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac318cc324ad984833ea40f8b985c27/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac318cc324ad984833ea40f8b985c27/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.JiongBull/jlog/0.1.0/7c74cf0f68bada968504a6f090ff01c4aeec8629/jlog-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

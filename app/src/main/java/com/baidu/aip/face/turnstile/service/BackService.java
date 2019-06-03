@@ -1,5 +1,6 @@
 package com.baidu.aip.face.turnstile.service;
 
+import com.baidu.aip.face.turnstile.DemoApplication;
 import com.example.HiJogging.fileUtils;
 
 import org.json.JSONException;
@@ -23,7 +24,6 @@ import java.io.IOException;
 
 public class BackService extends Service {
     HJSocket socket;
-    public static final String TAG = "MyService";
     private AutoExceptMsgReceiver autoExcepMstReceiver;
     private static String filePath = Environment.getExternalStorageDirectory().getPath();
     private static String fileName = "config.txt";
@@ -67,6 +67,7 @@ public class BackService extends Service {
                         .setCallback(new Callback() {
                             @Override
                             public void onConnected() {
+                                DemoApplication.getLogger().i("Socket" , "Socket连接成功");
                                 Intent intent = new Intent();
                                 intent.setAction("com.HiJogging.ENTER");
                                 intent.putExtra("msg", "isLine");
@@ -75,21 +76,22 @@ public class BackService extends Service {
 
                             @Override
                             public void onDisconnected() {
-//                        socket.connect();
+                                DemoApplication.getLogger().i("Socket" , "Socket断开成功");
                             }
 
                             @Override
                             public void onReconnected() {
-
+                                DemoApplication.getLogger().i("Socket" , "Socket重新链接");
                             }
 
                             @Override
                             public void onSend() {
-
+                                DemoApplication.getLogger().i("Socket" , "Socket已发送");
                             }
 
                             @Override
                             public void onReceived(String msg) {
+                                DemoApplication.getLogger().i("Socket" , "收到Socket信息" + msg);
                                 Intent intent = new Intent();
                                 intent.setAction("com.HiJogging.ENTER");
                                 if (msg.equals(HJSocket.byte2HexStr(HJSocket.downMsg(1,0)))){
@@ -118,7 +120,7 @@ public class BackService extends Service {
 
                             @Override
                             public void onError(String msg) {
-                                Log.e("Socket" , msg);
+                                DemoApplication.getLogger().i("Socket" , "出现Socket错误" + msg);
                                 if (msg.equals("notLine")){
                                     Intent intent = new Intent();
                                     intent.setAction("com.HiJogging.ENTER");
@@ -139,6 +141,7 @@ public class BackService extends Service {
                 socket.connect();
             }
         }catch (Exception e) {
+            DemoApplication.getLogger().e("Service" , e.toString());
             Intent intent = new Intent();
             intent.setAction("com.HiJogging.ENTER");
             intent.putExtra("msg", "isConfig");
@@ -164,8 +167,10 @@ public class BackService extends Service {
         try {
             setConfig();
         } catch (IOException e) {
+            DemoApplication.getLogger().e("Service" , e.toString());
             e.printStackTrace();
         } catch (JSONException e) {
+            DemoApplication.getLogger().e("Service" , e.toString());
             e.printStackTrace();
         }
 
@@ -176,7 +181,7 @@ public class BackService extends Service {
     //服务执行的操作
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d(TAG, "onStartCommand");
+        DemoApplication.getLogger().i("Socket" , "服务执行");
         return super.onStartCommand(intent, flags, startId);
 
     }
@@ -185,7 +190,7 @@ public class BackService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.d(TAG, "onDestroy");
+        DemoApplication.getLogger().i("Socket" , "服务销毁");
     }
 
     @Override

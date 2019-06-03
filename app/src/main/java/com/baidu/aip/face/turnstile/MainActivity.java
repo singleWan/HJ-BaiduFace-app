@@ -4,6 +4,7 @@
 package com.baidu.aip.face.turnstile;
 
 import com.baidu.aip.face.turnstile.service.BackService;
+import com.baidu.aip.face.turnstile.service.NetworkStateService;
 import com.example.HiJogging.R;
 
 import android.app.Activity;
@@ -82,6 +83,9 @@ public class MainActivity extends Activity {
         clearKeyguardLock();
         Intent startIntent = new Intent(this, BackService.class);
         startService(startIntent);
+
+        Intent i=new Intent(this, NetworkStateService.class);
+        startService(i);
     }
 
 

@@ -26,7 +26,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Socket" />
   </component>
   <component name="AvailableLibraryUpdateStorage">
@@ -65,6 +65,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
@@ -74,19 +75,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJsocket/HJsocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/HJsocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJsocket/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/.externalNativeBuild/cmake/debug/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facesdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facesdk/facesdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/facesdk/facesdk.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,20 +105,67 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/NetworkStateService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -139,29 +183,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PropertiesUtil</find>
-      <find>Environment.getExternalStorageDirectory().getPath()</find>
-      <find>testView</find>
-      <find>setDialogButtonTextColor</find>
-      <find>setShowBgdToast</find>
-      <find>setForcedUpgrade</find>
-      <find>setButtonClickListener</find>
-      <find>builder</find>
-      <find>applicationId</find>
-      <find>import android.support.v7.app.AlertDialog;</find>
-      <find>forcedUpgrade</find>
-      <find>HttpURLConnection</find>
-      <find>handler</find>
-      <find>&lt;uses-permission  android:name=&quot;android.permission.INTERNET&quot;/&gt;</find>
-      <find>sendHeart</find>
-      <find>onReceived</find>
       <find>onReconnect</find>
       <find>disconnectSocketIfNecessary</find>
       <find>connect</find>
       <find>读取数据异常</find>
       <find>读取数据异</find>
-      <find>onConnected</find>
-      <find>heartInterval</find>
       <find>isConnected</find>
       <find>onError</find>
       <find>mBroadcastReceiver</find>
@@ -169,6 +195,24 @@
       <find>typeError</find>
       <find>70</find>
       <find>NoFace</find>
+      <find>startService</find>
+      <find>NeterrorActivity</find>
+      <find>heartInterval</find>
+      <find>app</find>
+      <find>WRITE_EXTERNAL_STORAG</find>
+      <find>Demo</find>
+      <find>Socket</find>
+      <find>onConnected</find>
+      <find>onDisconnected</find>
+      <find>onReconnected</find>
+      <find>Log</find>
+      <find>VALUE_OCCLUSION</find>
+      <find>OutSuccess</find>
+      <find>onSend</find>
+      <find>android.permission.ACCESS_WIFI_STATE</find>
+      <find>service</find>
+      <find>catch</find>
+      <find>android.permission.ACCESS_NETWORK_STATE</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -184,12 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotimeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/SuccessActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notpay.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_noopen.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/TypeErrorActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NotPayActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/GoRun.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" />
@@ -215,8 +253,6 @@
         <option value="$PROJECT_DIR$/facesdk/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/SuccessActivity.java" />
-        <option value="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/TypeErrorActivity.java" />
@@ -228,12 +264,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceIdActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_contact_manager_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ContactManagerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/OutSuccess.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml" />
+        <option value="$PROJECT_DIR$/HJsocket/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/NetUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/NetBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/NetService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/NetworkStateService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
@@ -248,17 +292,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="HJ-BaiduFace-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="HJ-BaiduFace-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="facesdk" type="feadf853:AndroidModuleNode" />
-            </path>
             <path>
               <item name="HJ-BaiduFace-app" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -268,8 +306,6 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,8 +316,9 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="HAP9X19227002472" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/HJsocket/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/android.jks" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -401,28 +438,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-4" width="1902" height="1094" extended-state="6" />
+    <frame x="-6" y="-4" width="1902" height="1094" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.503864" side_tool="true" weight="0.32954547" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49535602" visible="true" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49459043" visible="true" weight="0.32954547" />
       <window_info id="Structure" order="2" sideWeight="0.504644" side_tool="true" weight="0.32954547" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" sideWeight="0.504644" side_tool="true" visible="true" weight="0.32954547" />
+      <window_info id="Build Variants" order="4" sideWeight="0.5054096" side_tool="true" weight="0.32954547" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Resources Explorer" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32848233" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32848233" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32744282" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50054115" side_tool="true" weight="0.2990654" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32744282" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.49945888" weight="0.2983368" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32744282" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" sideWeight="0.49945888" weight="0.2983368" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32848233" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -469,18 +507,6 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="OCSymbolicBreakpointType">
           <properties>
             <option name="moduleName" value="libart.so" />
@@ -498,87 +524,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/MyThread.java" />
-    <entry file="file://$PROJECT_DIR$/HJsocket/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facesdk/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/ResourceSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reg.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="61" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#1994#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#886#1256#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/fileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/utils/OnResultListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/content/Intent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="628" column="13" selection-start-line="628" selection-start-column="13" selection-end-line="628" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,26 +554,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/xxxx.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NoFaceId.java" />
-    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="413" selection-start-line="413" selection-end-line="413" />
-          <folding>
-            <element signature="method#generateMsg#0;class#HJSocket#0" />
-            <element signature="method#downMsg#0;class#HJSocket#0" />
-            <element signature="method#connect#0;class#HJSocket#0" />
-            <element signature="method#realconnect#0;class#HJSocket#0" />
-            <element signature="method#disconnectSocketIfNecessary#0;class#HJSocket#0" />
-            <element signature="method#closeThread#0;class#HJSocket#0" />
-            <element signature="method#closeWatchThread#0;class#HJSocket#0" />
-            <element signature="method#openThread#0;class#HJSocket#0" />
-            <element signature="method#openWatchThread#0;class#HJSocket#0" />
-            <element signature="method#send#0;class#HJSocket#0" />
-            <element signature="method#byte2HexStr#0;class#HJSocket#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/enter.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -678,13 +607,6 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_no_face_id_activity.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -712,16 +634,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
-          <caret line="239" column="63" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,24 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_out_success.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -780,13 +674,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="662" column="25" selection-start-line="662" selection-start-column="25" selection-end-line="662" selection-end-column="25" />
+          <folding>
+            <element signature="e#19179#19180#0" expanded="true" />
+            <element signature="e#19229#19230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/NeterrorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="61" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJsocket/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJsocket/src/main/java/com/wlt/HJsocket/HJSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="410" column="34" selection-start-line="410" selection-start-column="34" selection-end-line="410" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateMsg#0;class#HJSocket#0" />
+            <element signature="method#downMsg#0;class#HJSocket#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/BackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="172" column="68" selection-start-line="172" selection-start-column="68" selection-end-line="172" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/NetUtil.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/HiJogging/NetBroadcastReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/NetService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DetectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/service/NetworkStateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/baidu/aip/face/turnstile/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
