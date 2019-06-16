@@ -19,8 +19,9 @@ public class NotPayActivity extends AppCompatActivity {
             @Override
             public boolean handleMessage(Message msg) {
                 //实现页面跳转
-                Intent intent=new Intent(NotPayActivity.this,DetectActivity.class);
+                Intent intent=new Intent(NotPayActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 return false;
             }
         }).sendEmptyMessageDelayed(0,5000);//表示延迟5秒发送任务

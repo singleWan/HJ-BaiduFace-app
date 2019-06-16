@@ -33,8 +33,9 @@ public class NeterrorActivity extends AppCompatActivity {
                     @Override
                     public boolean handleMessage(Message msg) {
                         //实现页面跳转
-                        Intent intent=new Intent(NeterrorActivity.this,DetectActivity.class);
+                        Intent intent=new Intent(NeterrorActivity.this,MainActivity.class);
                         startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5发送任务

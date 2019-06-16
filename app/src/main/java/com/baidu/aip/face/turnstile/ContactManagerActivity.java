@@ -19,8 +19,9 @@ public class ContactManagerActivity extends AppCompatActivity {
             @Override
             public boolean handleMessage(Message msg) {
                 //实现页面跳转
-                Intent intent=new Intent(ContactManagerActivity.this,DetectActivity.class);
+                Intent intent=new Intent(ContactManagerActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 return false;
             }
         }).sendEmptyMessageDelayed(0,5000);//表示延迟3秒发送任务

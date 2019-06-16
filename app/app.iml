@@ -111,6 +111,7 @@
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.blankj:swipe-panel:1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.zhengcx:ShadowHelper:v1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:26.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: cat.ereza:customactivityoncrash:1.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:transition:26.1.0@aar" level="project" />
@@ -131,6 +132,8 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.azhon:appupdate:2.1.0@aar" level="project" />
+    <orderEntry type="module" module-name="HJsocket" />
+    <orderEntry type="module" module-name="facesdk" />
     <orderEntry type="module" module-name="HJsocket" />
     <orderEntry type="module" module-name="facesdk" />
     <orderEntry type="module" module-name="HJsocket" />

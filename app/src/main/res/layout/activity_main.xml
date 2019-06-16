@@ -2,15 +2,37 @@
 <!--
   ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
   -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="@drawable/welcome"
-    >
+    android:gravity="bottom|center"
+    android:orientation="vertical">
 
+
+    <Button
+        android:id="@+id/run"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="-80dp"
+        android:accessibilityHeading="false"
+        android:lineHeight="170dp"
+        android:paddingBottom="17dp"
+        android:text="@string/run"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="147dp" />
 
 
 </LinearLayout>

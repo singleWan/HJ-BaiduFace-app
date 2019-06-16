@@ -26,12 +26,13 @@ public class SuccessActivity extends AppCompatActivity {
                 //实现页面跳转
 //                startActivity(new Intent(getApplicationContext(), DetectActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK));
 //                return false;
-                Intent intent=new Intent(SuccessActivity.this,DetectActivity.class);
+                Intent intent=new Intent(SuccessActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 return false;
 
             }
-        }).sendEmptyMessageDelayed(0,5000);//表示延迟3秒发送任务
+        }).sendEmptyMessageDelayed(0,2000);//表示延迟3秒发送任务
     }
 
 }

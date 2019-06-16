@@ -76,151 +76,18 @@ public class DetectActivity extends AppCompatActivity {
     // 用于检测人脸。
     private FaceDetectManager faceDetectManager;
 
-    DownloadManager manager = DownloadManager.getInstance(this);
-    private static HttpURLConnection httpURLConnection = null;
+
     // 为了方便调式。
 //    private ImageView testView;
     private Handler handler = new Handler();
 
     //数据
 
-    String code = null;
-    int httpCode;
-    String version ;
-    String describe;
-    String downUrl;
     String TAG = "Detect";
-
-    private boolean run = true;
-    private boolean RUN = true;
     //广播接收器
     public class mBroadcastReceiver extends BroadcastReceiver {
         private String msg;
-        private void startUpdate3() {
-            /*
-             * 整个库允许配置的内容
-             * 非必选
-             */
-            UpdateConfiguration configuration = new UpdateConfiguration()
-                    //输出错误日志
-                    .setEnableLog(true)
-                    //设置自定义的下载
-                    //.setHttpManager()
-                    //下载完成自动跳动安装页面
-                    .setJumpInstallPage(true)
-                    //设置对话框背景图片 (图片规范参照demo中的示例图)
-                    //.setDialogImage(R.drawable.ic_dialog)
-                    //设置按钮的颜色
-                    //.setDialogButtonColor(Color.parseColor("#E743DA"))
-                    //设置按钮的文字颜色
-                    .setDialogButtonTextColor(Color.WHITE)
-                    //支持断点下载
-                    .setBreakpointDownload(true)
-                    //设置是否显示通知栏进度
-                    .setShowNotification(true)
-                    //设置是否提示后台下载toast
-                    .setShowBgdToast(true)
-                    //设置强制更新
-                    .setForcedUpgrade(true);
-                    //设置对话框按钮的点击监听
-//                    .setButtonClickListener(this)
-                    //设置下载过程的监听
-//                    .setOnDownloadListener(this);
 
-            manager.setApkName("Face.apk")
-                    .setApkUrl(downUrl)
-                    .setSmallIcon(R.drawable.icon)
-                    .setShowNewerToast(true)
-                    .setConfiguration(configuration)
-                    .setDownloadPath(Environment.getExternalStorageDirectory() + "/AppUpdate")
-                    .setApkVersionCode(9999)
-                    .setApkVersionName(version)
-                    .setApkSize("14.57")
-                    .setAuthorities(getPackageName())
-                    .setApkDescription(describe)
-                    .download();
-        }
-
-
-        Handler Httphandler = new Handler(){
-            @Override
-            public void handleMessage(Message msg){
-                Bundle data = msg.getData();
-                JSONObject jsonObject;
-                JSONObject jsons = new JSONObject();
-
-                //从data中拿出存的数据
-                String val = data.getString("value");
-                //将数据进行显示到界面等操作
-                try {
-                    jsonObject = new JSONObject(val);
-                    jsons = jsonObject.getJSONObject("data");
-                    httpCode = jsonObject.getInt("code");
-                } catch (JSONException e) {
-                    DemoApplication.getLogger().e(TAG , e.toString());
-                    e.printStackTrace();
-                }
-                if (httpCode == 200){
-                    try {
-                        version = jsons.getString("version");
-                        describe = jsons.getString("describe");
-                        downUrl = jsons.getString("url");
-                        DemoApplication.getLogger().i(TAG , version + describe + downUrl);
-
-                    } catch (JSONException e) {
-                        DemoApplication.getLogger().e(TAG , e.toString());
-                        e.printStackTrace();
-                    }
-                    if (Utils.compareVersion(version , code) > 0){
-                        faceDetectManager.stop();
-                        startUpdate3();
-                    }
-                }
-            }
-        };
-        Thread syncTasks = new Thread(new Runnable() {
-            public String getHtml(String path) throws Exception {
-                URL url = new URL(path);
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setConnectTimeout(5000);
-                conn.setRequestProperty("access-token", "3BDoQeb-naUZrO49*Mk_CYBaToqzqVo$");
-                conn.setRequestMethod("GET");
-                if (conn.getResponseCode() == 200) {
-                    InputStream in = conn.getInputStream();
-                    byte[] data = Utils.read(in);
-                    String html = new String(data, "UTF-8");
-                    return html;
-                }
-                return null;
-            }
-            @Override
-            public void run(){
-                while (true) {
-                    try {
-                        if (!RUN) {
-                            Thread.sleep(Long.MAX_VALUE);
-                        }
-                    } catch (Exception e) {
-                        DemoApplication.getLogger().e(TAG , e.toString());
-                        e.printStackTrace();
-                    }
-                    Message msg = Message.obtain();
-                    String html = "";
-                    try {
-                        html = getHtml("https://api.shikegongxiang.com/faceapp/V1/currentVersion");
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                        DemoApplication.getLogger().e(TAG , e.toString());
-                    }
-                    Bundle data = new Bundle();
-                    data.putString("value", html);
-                    msg.setData(data);
-                    Httphandler.sendMessage(msg);
-                    RUN = false;
-                }
-
-            }
-        });
 
         //复写onReceive()方法
         // 接收到广播后，则自动调用该方法
@@ -236,6 +103,7 @@ public class DetectActivity extends AppCompatActivity {
                         //实现页面跳转
                         Intent intent=new Intent(DetectActivity.this,NotimeActivity.class);
                         startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5发送任务
@@ -247,6 +115,7 @@ public class DetectActivity extends AppCompatActivity {
                         //实现页面跳转
                         Intent intent=new Intent(DetectActivity.this,SuccessActivity.class);
                         startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5秒发送任务
@@ -258,6 +127,7 @@ public class DetectActivity extends AppCompatActivity {
                         //实现页面跳转
                         Intent intent=new Intent(DetectActivity.this,OutSuccess.class);
                         startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5秒发送任务
@@ -269,6 +139,7 @@ public class DetectActivity extends AppCompatActivity {
                         //实现页面跳转
                         Intent intent=new Intent(DetectActivity.this,NotPayActivity.class);
                         startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5秒发送任务
@@ -280,34 +151,7 @@ public class DetectActivity extends AppCompatActivity {
                         //实现页面跳转
                         Intent intent=new Intent(DetectActivity.this,ContactManagerActivity.class);
                         startActivity(intent);
-                        return false;
-                    }
-                }).sendEmptyMessageDelayed(0,100);//表示延迟0.5秒发送任务
-            }else if (msg.equals("Update")){
-                PackageManager manager = context.getPackageManager();
-                PackageInfo info = null;
-                try {
-                    info = manager.getPackageInfo(context.getPackageName(), 0);
-                    code = info.versionName;
-                } catch (PackageManager.NameNotFoundException e) {
-                    e.printStackTrace();
-                    DemoApplication.getLogger().i(TAG , e.toString());
-                }
-                if (run){
-                    syncTasks.start();
-                    run = false;
-                }else {
-                    RUN = true;
-                    syncTasks.interrupt();
-                }
-            }else if (msg.equals("notLine")){
-                faceDetectManager.stop();
-                new Handler(new Handler.Callback() {
-                    @Override
-                    public boolean handleMessage(Message msg) {
-                        //实现页面跳转
-                        Intent intent=new Intent(DetectActivity.this,NeterrorActivity.class);
-                        startActivity(intent);
+                        finish();
                         return false;
                     }
                 }).sendEmptyMessageDelayed(0,100);//表示延迟0.5秒发送任务
@@ -411,18 +255,7 @@ public class DetectActivity extends AppCompatActivity {
         }
 
 
-        final SwipePanel swipePanel = new SwipePanel(this);
-        swipePanel.setLeftEdgeSize(100);// 设置左侧触发阈值 100dp
-        swipePanel.setLeftDrawable(R.drawable.base_back);// 设置左侧 icon
-        swipePanel.wrapView(findViewById(R.id.camera_layout));// 设置嵌套在 rootLayout 外层
-        swipePanel.setOnFullSwipeListener(new SwipePanel.OnFullSwipeListener() {// 设置完全划开松手后的监听
-            @Override
-            public void onFullSwipe(int direction) {
-                Intent intent=new Intent(DetectActivity.this, RegisterActivity.class);
-                startActivity(intent);
-                swipePanel.close(direction);// 关闭
-            }
-        });
+
 
         setCameraType(cameraImageSource);
     }
@@ -555,6 +388,7 @@ public class DetectActivity extends AppCompatActivity {
                                 faceDetectManager.stop();
                                 Intent intent = new Intent(DetectActivity.this, NoFaceIdActivity.class);
                                 startActivity(intent);
+                                finish();
                             }else {
                                 shouldUpload = true;
                             }

@@ -19,8 +19,9 @@ public class NoFaceIdActivity extends AppCompatActivity {
             @Override
             public boolean handleMessage(Message msg) {
                 //实现页面跳转
-                Intent intent=new Intent(NoFaceIdActivity.this,DetectActivity.class);
+                Intent intent=new Intent(NoFaceIdActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 return false;
             }
         }).sendEmptyMessageDelayed(0,5000);//表示延迟3秒发送任务
